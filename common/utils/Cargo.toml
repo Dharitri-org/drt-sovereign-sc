@@ -1,0 +1,15 @@
+[package]
+name = "utils"
+version = "0.0.0"
+authors = ["Dorin Iancu <dorin.iancu@dharitri.com>"]
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies.bls-signature]
+path = "../bls-signature"
+
+[dependencies.dharitri-sc]
+version = "=0.13.6"
+features = ["dct-token-payment-legacy-decode"]

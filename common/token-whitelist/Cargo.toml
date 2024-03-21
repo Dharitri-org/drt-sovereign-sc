@@ -1,0 +1,20 @@
+[package]
+name = "token-whitelist"
+version = "0.0.0"
+authors = ["dorin-iancu <dorin.iancu@dharitri.com>"]
+edition = "2018"
+
+[dependencies.bls-signature]
+path = "../bls-signature"
+
+[dependencies.setup-phase]
+path = "../setup-phase"
+
+[dependencies.utils]
+path = "../utils"
+
+[dependencies.dharitri-sc]
+version = "=0.13.6"
+
+[dev-dependencies.dharitri-sc-scenario]
+version = "=0.13.6"

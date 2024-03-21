@@ -1,0 +1,27 @@
+[package]
+name = "chain-factory"
+version = "0.0.0"
+authors = [ "you",]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dev-dependencies]
+num-bigint = "0.4.2"
+
+[dependencies.dharitri-sc]
+version = "=0.13.6"
+
+[dependencies.utils]
+path = "../common/utils"
+
+[dependencies.chain-config]
+path = "../chain-config"
+
+[dependencies.bls-signature]
+path = "../common/bls-signature"
+
+[dev-dependencies.dharitri-sc-scenario]
+version = "=0.13.6"

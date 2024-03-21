@@ -1,0 +1,27 @@
+[package]
+name = "fee-market"
+version = "0.0.0"
+authors = ["you"]
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies.utils]
+path = "../common/utils"
+
+[dependencies.transaction]
+path = "../common/transaction"
+
+[dependencies.bls-signature]
+path = "../common/bls-signature"
+
+[dependencies.dharitri-sc]
+version = "=0.13.6"
+
+[dev-dependencies]
+num-bigint = "0.4.2"
+
+[dev-dependencies.dharitri-sc-scenario]
+version = "=0.13.6"
